@@ -6,6 +6,8 @@ int main() {
 
     int b=2;
 
+    printf("This program is written by Mohd Afrid\n");
+    
     printf("A = 4\n");
 
     printf("B = 2\n");
