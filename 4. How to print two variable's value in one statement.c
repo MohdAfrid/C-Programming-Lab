@@ -8,6 +8,8 @@ int main() {
 
     //Here a and b are variables of integer type
 
+    printf("This program is written by Mohd Afrid\n");
+    
     printf("Values of A and B are : %d,%d", a,b);
 
     
