@@ -10,9 +10,11 @@ int main() {
 
 */
 
-   printf("'//' This is used for single line comment.\n");
+   printf("This program is written by Mohd Afrid\n");
+   
+   printf("'//' This is used for single line comment\n");
 
-   printf("'/*....*/' This is used for multiline comment.");
+   printf("'/*....*/' This is used for multiline comment");
 
     return 0;
 
