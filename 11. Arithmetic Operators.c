@@ -1,22 +1,16 @@
+
 #include<stdio.h>
 int main()
 {
     printf("This program is written by Mohd Afrid\n");
     int  a, b;
-    printf("Enter a number: ");
-    scanf("%d",&a);
+    printf("Enter two numbers: ");
+    scanf("%d %d",&a,&b);
     
-    b=a;
-    printf("Number is: %d\n",b);
-    b+=a;
-    printf("Number is: %d\n",b);
-    b-=a;
-    printf("Number is: %d\n",b);
-    b*=a;
-    printf("Number is: %d\n",b);
-    b/=a;
-    printf("Number is: %d\n",b);
-    b%=a;
-    printf("Number is: %d",b);
+    printf("Value of a+b : %d\n",a+b);
+    printf("Value of a-b : %d\n",a-b);
+    printf("Value of a*b : %d\n",a*b);
+    printf("Value of a/b : %d\n",a/b);
+    printf("Value of a%b : %d\n",a%b);
     return 0;
 }
